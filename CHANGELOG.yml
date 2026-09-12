@@ -2,6 +2,10 @@
 # Intended for player consumption, in one shape or form.
 
 upcoming:
+  - title: Expose kill assists to Lua API
+    categ: lua
+    descr: |
+      `sess.kill_assists` can now be read and set via `et.gentity_get` / `et.gentity_set`.
   - title: Fade in first-person weapon when being revived
     categ: cgame
     descr: |
